@@ -4,7 +4,7 @@ def main():
     st.title("Simple Addition App")
     
     # User input for two numbers
-    num1 = st.number_input("Enter first number", value=0.0, step=1.0)
+    num1 = st.number_input("Enter 1st number", value=0.0, step=1.0)
     num2 = st.number_input("Enter second number", value=0.0, step=1.0)
     
     # Perform addition
